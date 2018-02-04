@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 
 import socket 
+import readline
+
 endallflag = 1
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+sdaf= socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #host = socket.gethostname()
 host = '124.16.71.203'
 port = 9999
