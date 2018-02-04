@@ -1,5 +1,6 @@
 #! /usr/bin/env python3
 
+
 import socket
 import readline #如果不import这个模块，input中文backspace之后的显示会不正确（不知道为啥）
 #这个模块的原来目的就是input输入自动补全和记录历时输入
